@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo git e github</title>
+    <link rel="stylesheet" href="style/style.css">
     <style>
         *{
             margin: 0;
@@ -11,15 +12,21 @@
             box-sizing: border-box;
         }
         h1{
-            color: red;
+            color:white;
+            text-align: center;
+            margin-bottom: 30px;
+            
         }
         .container{
-            width: 40%;
-            height: 400px;
-            background-color: #ccc;
+            width: 400px;
+            height: 440px;
+            padding: 10px;
+            background-color: #252525;
+            border-radius: 15px;
         }
         .imgs-container img{
             width: 35px;
+            cursor: pointer;
         }
         .form{
         display: flex;
@@ -31,36 +38,37 @@
             display: flex;
             justify-content: space-around;
         }
-        /* .imgs.container{
-            display: flex;
-            justify-content: space-around;
-        } */
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Login</h1>
-        <div class="imgs-container">
-            <ul>
-                <li><img src="/imgs/google.icon.png" alt="google"></li>
-                <li><img src="/imgs/facebook.icon.png" alt="facebook">
-                <li><img src="/imgs/github.icon.png" alt="github"></li>
-            </ul>
-        </div>
-        <div class="form">
-            <label for="name">Nome</label>
-            <input type="text" name="name" placeholder="Akita">
-            <label for="email">Email</label>
-            <input type="email" name="email" placeholder="akita123@gmail.com">
-            <label for="password">Senha</label>
-            <input type="password" name="passoword" placeholder="**********">
-            <a href="#">Esqueceu a senha?</a>
-            <h2>Não tem conta?</h2>
-            <p><a href="#">Clique aqui</a> para cadastrar</p>
-        </div>
-        <div id="login-btn">
-            <button>Enviar</button>
-        </div>
-    </div>
-</body>
-</html>
+    <div id="center-div">
+
+        <div class="container">
+            <header><h1>Login</h1></header >
+                <div class="imgs-container">
+                    <ul>
+                        <li><img src="/imgs/google.icon.png" alt="google"></li>
+                        <li><img src="/imgs/facebook.icon.png" alt="facebook">
+                            <li><img src="/imgs/github.icon.png" alt="github"></li>
+                        </ul>
+                    </div>
+                    <div class="form">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" placeholder="Akita">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="akita123@gmail.com">
+                        <label for="password">Senha</label>
+                        <input type="password" name="passoword" placeholder="**********">
+                        
+                        <a href="#">Esqueceu a senha?</a>
+                        <h2>Não tem conta?</h2>
+                        <p><a href="#">Clique aqui</a> para cadastrar</p>
+                    </div>
+                    
+                    <div class="login-btn">
+                        <button>Enviar</button>
+                    </div>
+                </div>
+            </div>
+            </body>
+            </html>
