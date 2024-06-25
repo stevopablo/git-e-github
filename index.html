@@ -21,6 +21,11 @@
         .imgs-container img{
             width: 35px;
         }
+        .form{
+        display: flex;
+        flex-direction: column;
+        }
+
         ul{
             list-style: none;
             display: flex;
@@ -38,9 +43,23 @@
         <div class="imgs-container">
             <ul>
                 <li><img src="/imgs/google.icon.png" alt="google"></li>
-                <li><img src="/imgs/facebook.icon.png" alt="facebook"></li>
+                <li><img src="/imgs/facebook.icon.png" alt="facebook">
                 <li><img src="/imgs/github.icon.png" alt="github"></li>
             </ul>
+        </div>
+        <div class="form">
+            <label for="name">Nome</label>
+            <input type="text" name="name" placeholder="Akita">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="akita123@gmail.com">
+            <label for="password">Senha</label>
+            <input type="password" name="passoword" placeholder="**********">
+            <a href="#">Esqueceu a senha?</a>
+            <h2>Não tem conta?</h2>
+            <p><a href="#">Clique aqui</a> para cadastrar</p>
+        </div>
+        <div id="login-btn">
+            <button>Enviar</button>
         </div>
     </div>
 </body>
