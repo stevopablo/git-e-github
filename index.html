@@ -5,12 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo git e github</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         h1{
             color: red;
         }
+        .container{
+            width: 40%;
+            height: 400px;
+            background-color: #ccc;
+        }
+        .imgs-container img{
+            width: 35px;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        /* .imgs.container{
+            display: flex;
+            justify-content: space-around;
+        } */
     </style>
 </head>
 <body>
-    <h1>primeiro commit</h1>
+    <div class="container">
+        <h1>Login</h1>
+        <div class="imgs-container">
+            <ul>
+                <li><img src="/imgs/google.icon.png" alt="google"></li>
+                <li><img src="/imgs/facebook.icon.png" alt="facebook"></li>
+                <li><img src="/imgs/github.icon.png" alt="github"></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
